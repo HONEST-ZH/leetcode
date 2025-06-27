@@ -9,10 +9,6 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 
-
-int cmp(const void* a, const void* b) {
-    return ((item*)a)->value - ((item*)b)->value;
-}
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     
 }
