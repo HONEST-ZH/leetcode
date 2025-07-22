@@ -1,98 +1,73 @@
-基础阶段（必刷50题）
+#### ✅ 一、基础阶段（必刷50题）
+| 专题 | 题目编号 | 标题 | 知识点 |
+|------|----------|------|--------|
+| **数组与字符串** | 1 | Two Sum（两数之和） | 哈希表 |
+|  | 88 | Merge Sorted Array | 双指针 |
+|  | 121 | Best Time to Buy and Sell Stock | 动态规划/贪心 |
+|  | 169 | Majority Element | 摩尔投票 |
+|  | 26 | Remove Duplicates from Sorted Array | 双指针 |
+| **哈希表 & 集合** | 217 | Contains Duplicate | 哈希集合 |
+|  | 242 | Valid Anagram | 哈希表 |
+|  | 349 | Intersection of Two Arrays | 哈希集合 |
+|  | 290 | Word Pattern | 哈希映射 |
+|  | 383 | Ransom Note | 计数哈希 |
+| **栈与队列** | 20 | Valid Parentheses | 栈 |
+|  | 155 | Min Stack | 辅助栈 |
+|  | 232 | Implement Queue using Stacks | 栈实现队列 |
+|  | 239 | Sliding Window Maximum | 单调队列 |
+|  | 225 | Implement Stack using Queues | 队列实现栈 |
+| **链表基础** | 206 | Reverse Linked List | 反转链表 |
+|  | 21 | Merge Two Sorted Lists | 合并链表 |
+|  | 141 | Linked List Cycle | 快慢指针 |
+|  | 160 | Intersection of Two Linked Lists | 链表交点 |
+|  | 234 | Palindrome Linked List | 链表+栈 |
 
-✅ 数组与字符串
-题目编号	标题	知识点
-1	Two Sum（两数之和）	哈希表
-88	Merge Sorted Array	双指针
-121	Best Time to Buy and Sell Stock	动态规划/贪心
-169	Majority Element	摩尔投票
-26	Remove Duplicates from Sorted Array	双指针
+#### ⚙️ 二、中级阶段（编程能力提升）
+| 专题 | 题目编号 | 标题 | 知识点 |
+|------|----------|------|--------|
+| **二叉树与递归** | 104 | Maximum Depth of Binary Tree | DFS |
+|  | 226 | Invert Binary Tree | 递归 |
+|  | 102 | Binary Tree Level Order Traversal | BFS |
+|  | 105 | Construct Binary Tree from Preorder and Inorder | 分治 |
+|  | 236 | Lowest Common Ancestor of a Binary Tree | DFS |
+| **排序 & 二分查找** | 33 | Search in Rotated Sorted Array | 二分变形 |
+|  | 153 | Find Minimum in Rotated Sorted Array | 二分 |
+|  | 34 | Find First and Last Position of Element | 左右边界二分 |
+|  | 278 | First Bad Version | 模板题 |
+|  | 300 | Longest Increasing Subsequence | DP + 二分 |
+| **回溯 & DFS** | 46 | Permutations | 回溯 |
+|  | 78 | Subsets | 子集枚举 |
+|  | 79 | Word Search | DFS |
+|  | 22 | Generate Parentheses | 回溯 |
+|  | 131 | Palindrome Partitioning | DFS + 回溯 |
 
-✅ 哈希表 & 集合
-题目编号	标题	知识点
-217	Contains Duplicate	哈希集合
-242	Valid Anagram	哈希表
-349	Intersection of Two Arrays	哈希集合
-290	Word Pattern	哈希映射
-383	Ransom Note	计数哈希
+#### 🚀 三、进阶阶段（能力突破 & 面试冲刺）
+| 专题 | 题目编号 | 标题 | 知识点 |
+|------|----------|------|--------|
+| **动态规划** | 198 | House Robber | DP |
+|  | 213 | House Robber II | 环形DP |
+|  | 322 | Coin Change | 完全背包 |
+|  | 1143 | Longest Common Subsequence | 二维DP |
+|  | 72 | Edit Distance | 字符串编辑DP |
+| **贪心 & 前缀和** | 55 | Jump Game | 贪心 |
+|  | 45 | Jump Game II | 贪心优化 |
+|  | 53 | Maximum Subarray | 动态规划/前缀和 |
+|  | 134 | Gas Station | 贪心 |
+|  | 763 | Partition Labels | 贪心区间 |
+| **并查集 & 图** | 547 | Number of Provinces | 并查集 |
+|  | 200 | Number of Islands | DFS/BFS |
+|  | 684 | Redundant Connection | 并查集 |
+|  | 994 | Rotting Oranges | BFS |
+|  | 785 | Is Graph Bipartite? | BFS/染色法 |
 
-✅ 栈与队列
-题目编号	标题	知识点
-20	Valid Parentheses	栈
-155	Min Stack	辅助栈
-232	Implement Queue using Stacks	栈实现队列
-239	Sliding Window Maximum	单调队列
-225	Implement Stack using Queues	队列实现栈
-
-✅ 链表基础
-题目编号	标题	知识点
-206	Reverse Linked List	反转链表
-21	Merge Two Sorted Lists	合并链表
-141	Linked List Cycle	快慢指针
-160	Intersection of Two Linked Lists	链表交点
-234	Palindrome Linked List	链表+栈
-
-⚙️ 二、中级阶段（编程能力提升）
-✅ 二叉树与递归
-题目编号	标题	知识点
-104	Maximum Depth of Binary Tree	DFS
-226	Invert Binary Tree	递归
-102	Binary Tree Level Order Traversal	BFS
-105	Construct Binary Tree from Preorder and Inorder	分治
-236	Lowest Common Ancestor of a Binary Tree	DFS
-
-✅ 排序 & 二分查找
-题目编号	标题	知识点
-33	Search in Rotated Sorted Array	二分变形
-153	Find Minimum in Rotated Sorted Array	二分
-34	Find First and Last Position of Element	左右边界二分
-278	First Bad Version	模板题
-300	Longest Increasing Subsequence	DP + 二分
-
-✅ 回溯 & DFS
-题目编号	标题	知识点
-46	Permutations	回溯
-78	Subsets	子集枚举
-79	Word Search	DFS
-22	Generate Parentheses	回溯
-131	Palindrome Partitioning	DFS + 回溯
-
-🚀 三、进阶阶段（能力突破 & 面试冲刺）
-✅ 动态规划
-题目编号	标题	知识点
-198	House Robber	DP
-213	House Robber II	环形DP
-322	Coin Change	完全背包
-1143	Longest Common Subsequence	二维DP
-72	Edit Distance	字符串编辑DP
-
-✅ 贪心 & 前缀和
-题目编号	标题	知识点
-55	Jump Game	贪心
-45	Jump Game II	贪心优化
-53	Maximum Subarray	动态规划/前缀和
-134	Gas Station	贪心
-763	Partition Labels	贪心区间
-
-✅ 并查集 & 图
-题目编号	标题	知识点
-547	Number of Provinces	并查集
-200	Number of Islands	DFS/BFS
-684	Redundant Connection	并查集
-994	Rotting Oranges	BFS
-785	Is Graph Bipartite?	BFS/染色法
-
-📚 附加专题
-位运算专题
-题目编号	标题	知识点
-191	Number of 1 Bits	位计数
-136	Single Number	异或
-231	Power of Two	位移判断
-
-LRU 缓存 / 系统设计类
-题目编号	标题	知识点
-146	LRU Cache	哈希+双链表
-460	LFU Cache	频次优先设计题
+#### 📚 附加专题
+| 专题 | 题目编号 | 标题 | 知识点 |
+|------|----------|------|--------|
+| **位运算** | 191 | Number of 1 Bits | 位计数 |
+|  | 136 | Single Number | 异或 |
+|  | 231 | Power of Two | 位移判断 |
+| **系统设计** | 146 | LRU Cache | 哈希+双链表 |
+|  | 460 | LFU Cache | 频次优先设计 |
 
 # 计划
 | 天数  | 题目 1 | LeetCode 题号 | 链接 | 题目 2 | LeetCode 题号 | 链接 |
